@@ -1,0 +1,12 @@
+C:\Users\Dylan\Documents\ArbolGenealogico-Rendimiento\Arbol-Genealogico\Arbol_Core\obj\Release\net8.0\Arbol_Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dylan\Documents\ArbolGenealogico-Rendimiento\Arbol-Genealogico\Arbol_Core\obj\Release\net8.0\Arbol_Core.AssemblyInfoInputs.cache
+C:\Users\Dylan\Documents\ArbolGenealogico-Rendimiento\Arbol-Genealogico\Arbol_Core\obj\Release\net8.0\Arbol_Core.AssemblyInfo.cs
+C:\Users\Dylan\Documents\ArbolGenealogico-Rendimiento\Arbol-Genealogico\Arbol_Core\obj\Release\net8.0\Arbol_Core.csproj.CoreCompileInputs.cache
+C:\Users\Dylan\Documents\ArbolGenealogico-Rendimiento\Arbol-Genealogico\Arbol_Core\obj\Release\net8.0\Arbol_Core.sourcelink.json
+C:\Users\Dylan\Documents\ArbolGenealogico-Rendimiento\Arbol-Genealogico\Arbol_Core\bin\Release\net8.0\Arbol_Core.deps.json
+C:\Users\Dylan\Documents\ArbolGenealogico-Rendimiento\Arbol-Genealogico\Arbol_Core\bin\Release\net8.0\Arbol_Core.dll
+C:\Users\Dylan\Documents\ArbolGenealogico-Rendimiento\Arbol-Genealogico\Arbol_Core\bin\Release\net8.0\Arbol_Core.pdb
+C:\Users\Dylan\Documents\ArbolGenealogico-Rendimiento\Arbol-Genealogico\Arbol_Core\obj\Release\net8.0\Arbol_Core.dll
+C:\Users\Dylan\Documents\ArbolGenealogico-Rendimiento\Arbol-Genealogico\Arbol_Core\obj\Release\net8.0\refint\Arbol_Core.dll
+C:\Users\Dylan\Documents\ArbolGenealogico-Rendimiento\Arbol-Genealogico\Arbol_Core\obj\Release\net8.0\Arbol_Core.pdb
+C:\Users\Dylan\Documents\ArbolGenealogico-Rendimiento\Arbol-Genealogico\Arbol_Core\obj\Release\net8.0\ref\Arbol_Core.dll

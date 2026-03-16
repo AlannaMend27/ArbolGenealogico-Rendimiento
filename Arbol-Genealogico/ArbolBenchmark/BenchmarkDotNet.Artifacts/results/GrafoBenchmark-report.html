@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>GrafoBenchmark-20260316-110519</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet v0.15.8, Windows 11 (10.0.26100.8037/24H2/2024Update/HudsonValley)
+Intel Core i7-7700 CPU 3.60GHz (Kaby Lake), 1 CPU, 8 logical and 4 physical cores
+.NET SDK 10.0.101
+  [Host]     : .NET 10.0.1 (10.0.1, 10.0.125.57005), X64 RyuJIT x86-64-v3
+  DefaultJob : .NET 10.0.1 (10.0.1, 10.0.125.57005), X64 RyuJIT x86-64-v3
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>Method     </th><th>N</th><th>Mean</th><th>Error</th><th>StdDev</th><th>Median</th><th>Gen0</th><th>Gen1</th><th>Allocated</th>
+</tr>
+</thead><tbody><tr><td>ConstruirAristas</td><td>10</td><td>4.652 &mu;s</td><td>0.0947 &mu;s</td><td>0.2749 &mu;s</td><td>4.605 &mu;s</td><td>0.7324</td><td>-</td><td>3072 B</td>
+</tr><tr><td>DistanciaPromedio</td><td>10</td><td>1.075 &mu;s</td><td>0.0212 &mu;s</td><td>0.0297 &mu;s</td><td>1.068 &mu;s</td><td>0.0458</td><td>-</td><td>192 B</td>
+</tr><tr><td>ParMasLejano</td><td>10</td><td>1.201 &mu;s</td><td>0.0240 &mu;s</td><td>0.0670 &mu;s</td><td>1.201 &mu;s</td><td>0.0458</td><td>-</td><td>192 B</td>
+</tr><tr><td>ParMasCercano</td><td>10</td><td>1.161 &mu;s</td><td>0.0225 &mu;s</td><td>0.0502 &mu;s</td><td>1.144 &mu;s</td><td>0.0458</td><td>-</td><td>192 B</td>
+</tr><tr><td>ConstruirAristas</td><td>20</td><td>18.361 &mu;s</td><td>0.3376 &mu;s</td><td>0.5355 &mu;s</td><td>18.228 &mu;s</td><td>2.9602</td><td>-</td><td>12432 B</td>
+</tr><tr><td>DistanciaPromedio</td><td>20</td><td>4.221 &mu;s</td><td>0.0671 &mu;s</td><td>0.0627 &mu;s</td><td>4.233 &mu;s</td><td>0.0610</td><td>-</td><td>272 B</td>
+</tr><tr><td>ParMasLejano</td><td>20</td><td>4.393 &mu;s</td><td>0.0867 &mu;s</td><td>0.2418 &mu;s</td><td>4.284 &mu;s</td><td>0.0610</td><td>-</td><td>272 B</td>
+</tr><tr><td>ParMasCercano</td><td>20</td><td>4.171 &mu;s</td><td>0.0371 &mu;s</td><td>0.0347 &mu;s</td><td>4.164 &mu;s</td><td>0.0610</td><td>-</td><td>272 B</td>
+</tr><tr><td>ConstruirAristas</td><td>30</td><td>39.805 &mu;s</td><td>0.3855 &mu;s</td><td>0.3606 &mu;s</td><td>39.700 &mu;s</td><td>6.7139</td><td>0.0610</td><td>28192 B</td>
+</tr><tr><td>DistanciaPromedio</td><td>30</td><td>9.144 &mu;s</td><td>0.1425 &mu;s</td><td>0.1190 &mu;s</td><td>9.165 &mu;s</td><td>0.0763</td><td>-</td><td>352 B</td>
+</tr><tr><td>ParMasLejano</td><td>30</td><td>9.315 &mu;s</td><td>0.0908 &mu;s</td><td>0.0850 &mu;s</td><td>9.283 &mu;s</td><td>0.0763</td><td>-</td><td>352 B</td>
+</tr><tr><td>ParMasCercano</td><td>30</td><td>9.369 &mu;s</td><td>0.1825 &mu;s</td><td>0.1618 &mu;s</td><td>9.352 &mu;s</td><td>0.0763</td><td>-</td><td>352 B</td>
+</tr></tbody></table>
+</body>
+</html>
