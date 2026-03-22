@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArbolBenchmark")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a409ce391dc4f3933bb9ae1b0a5bcc667de1ba3c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4007b0b7bc7979c0e1a2f4c9aef70dd498fb057")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArbolBenchmark")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArbolBenchmark")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

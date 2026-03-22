@@ -1,3 +1,13 @@
-﻿using BenchmarkDotNet.Running;
+﻿class Program
+{
+    static void Main()
+    {
+        PruebaEstres.Run();
+    }
+}
 
-BenchmarkRunner.Run<GrafoBenchmark>();
+
+//DOTNET BENCHMARK
+/*using BenchmarkDotNet.Running;
+
+BenchmarkRunner.Run<GrafoBenchmark>();*/
