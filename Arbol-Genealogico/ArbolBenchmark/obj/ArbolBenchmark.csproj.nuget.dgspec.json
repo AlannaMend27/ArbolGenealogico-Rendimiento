@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dylan\\Documents\\ArbolGenealogico-Rendimiento\\Arbol-Genealogico\\ArbolBenchmark\\ArbolBenchmark.csproj": {}
+    "C:\\Users\\Dylan\\Documents\\ArbolGenealogico-Rendimiento\\Arbol-Genealogico\\ArbolBenchMark\\ArbolBenchmark.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dylan\\Documents\\ArbolGenealogico-Rendimiento\\Arbol-Genealogico\\ArbolBenchmark\\ArbolBenchmark.csproj": {
+    "C:\\Users\\Dylan\\Documents\\ArbolGenealogico-Rendimiento\\Arbol-Genealogico\\ArbolBenchMark\\ArbolBenchmark.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dylan\\Documents\\ArbolGenealogico-Rendimiento\\Arbol-Genealogico\\ArbolBenchmark\\ArbolBenchmark.csproj",
+        "projectUniqueName": "C:\\Users\\Dylan\\Documents\\ArbolGenealogico-Rendimiento\\Arbol-Genealogico\\ArbolBenchMark\\ArbolBenchmark.csproj",
         "projectName": "ArbolBenchmark",
-        "projectPath": "C:\\Users\\Dylan\\Documents\\ArbolGenealogico-Rendimiento\\Arbol-Genealogico\\ArbolBenchmark\\ArbolBenchmark.csproj",
+        "projectPath": "C:\\Users\\Dylan\\Documents\\ArbolGenealogico-Rendimiento\\Arbol-Genealogico\\ArbolBenchMark\\ArbolBenchmark.csproj",
         "packagesPath": "C:\\Users\\Dylan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dylan\\Documents\\ArbolGenealogico-Rendimiento\\Arbol-Genealogico\\ArbolBenchmark\\obj\\",
+        "outputPath": "C:\\Users\\Dylan\\Documents\\ArbolGenealogico-Rendimiento\\Arbol-Genealogico\\ArbolBenchMark\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

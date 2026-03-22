@@ -4,21 +4,25 @@ BenchmarkDotNet v0.15.8, Windows 11 (10.0.26100.8037/24H2/2024Update/HudsonValle
 Intel Core i7-7700 CPU 3.60GHz (Kaby Lake), 1 CPU, 8 logical and 4 physical cores
 .NET SDK 10.0.101
   [Host]     : .NET 10.0.1 (10.0.1, 10.0.125.57005), X64 RyuJIT x86-64-v3
-  DefaultJob : .NET 10.0.1 (10.0.1, 10.0.125.57005), X64 RyuJIT x86-64-v3
+  Job-FGEKWY : .NET 10.0.1 (10.0.1, 10.0.125.57005), X64 RyuJIT x86-64-v3
 
+IterationCount=3  LaunchCount=1  WarmupCount=1  
 
 ```
-| Method            | N  | Mean      | Error     | StdDev    | Median    | Gen0   | Gen1   | Allocated |
-|------------------ |--- |----------:|----------:|----------:|----------:|-------:|-------:|----------:|
-| **ConstruirAristas**  | **10** |  **4.652 μs** | **0.0947 μs** | **0.2749 μs** |  **4.605 μs** | **0.7324** |      **-** |    **3072 B** |
-| DistanciaPromedio | 10 |  1.075 μs | 0.0212 μs | 0.0297 μs |  1.068 μs | 0.0458 |      - |     192 B |
-| ParMasLejano      | 10 |  1.201 μs | 0.0240 μs | 0.0670 μs |  1.201 μs | 0.0458 |      - |     192 B |
-| ParMasCercano     | 10 |  1.161 μs | 0.0225 μs | 0.0502 μs |  1.144 μs | 0.0458 |      - |     192 B |
-| **ConstruirAristas**  | **20** | **18.361 μs** | **0.3376 μs** | **0.5355 μs** | **18.228 μs** | **2.9602** |      **-** |   **12432 B** |
-| DistanciaPromedio | 20 |  4.221 μs | 0.0671 μs | 0.0627 μs |  4.233 μs | 0.0610 |      - |     272 B |
-| ParMasLejano      | 20 |  4.393 μs | 0.0867 μs | 0.2418 μs |  4.284 μs | 0.0610 |      - |     272 B |
-| ParMasCercano     | 20 |  4.171 μs | 0.0371 μs | 0.0347 μs |  4.164 μs | 0.0610 |      - |     272 B |
-| **ConstruirAristas**  | **30** | **39.805 μs** | **0.3855 μs** | **0.3606 μs** | **39.700 μs** | **6.7139** | **0.0610** |   **28192 B** |
-| DistanciaPromedio | 30 |  9.144 μs | 0.1425 μs | 0.1190 μs |  9.165 μs | 0.0763 |      - |     352 B |
-| ParMasLejano      | 30 |  9.315 μs | 0.0908 μs | 0.0850 μs |  9.283 μs | 0.0763 |      - |     352 B |
-| ParMasCercano     | 30 |  9.369 μs | 0.1825 μs | 0.1618 μs |  9.352 μs | 0.0763 |      - |     352 B |
+| Method                   | N  | Mean        | Error        | StdDev     | Gen0   | Gen1   | Allocated |
+|------------------------- |--- |------------:|-------------:|-----------:|-------:|-------:|----------:|
+| **ObtenerErroresValidacion** | **5**  |    **45.40 ns** |     **4.770 ns** |   **0.261 ns** | **0.0076** |      **-** |      **32 B** |
+| AgregarPersona           | 5  |   753.85 ns | 2,223.330 ns | 121.868 ns | 0.0429 | 0.0210 |     272 B |
+| ConstruirAristas         | 5  |   823.54 ns |   261.190 ns |  14.317 ns | 0.1888 |      - |     792 B |
+| ObtenerParMasLejano      | 5  |   236.86 ns |    23.462 ns |   1.286 ns | 0.0362 |      - |     152 B |
+| ObtenerParMasCercano     | 5  |   239.04 ns |    40.814 ns |   2.237 ns | 0.0362 |      - |     152 B |
+| **ObtenerErroresValidacion** | **10** |    **46.93 ns** |     **9.180 ns** |   **0.503 ns** | **0.0076** |      **-** |      **32 B** |
+| AgregarPersona           | 10 |   731.90 ns | 1,747.863 ns |  95.806 ns | 0.0429 | 0.0210 |     272 B |
+| ConstruirAristas         | 10 | 2,796.36 ns |   259.751 ns |  14.238 ns | 0.7324 |      - |    3072 B |
+| ObtenerParMasLejano      | 10 |   548.77 ns |   267.539 ns |  14.665 ns | 0.0458 |      - |     192 B |
+| ObtenerParMasCercano     | 10 |   542.53 ns |    55.838 ns |   3.061 ns | 0.0458 |      - |     192 B |
+| **ObtenerErroresValidacion** | **15** |    **43.93 ns** |     **0.847 ns** |   **0.046 ns** | **0.0076** |      **-** |      **32 B** |
+| AgregarPersona           | 15 |   731.53 ns | 1,755.197 ns |  96.208 ns | 0.0429 | 0.0210 |     272 B |
+| ConstruirAristas         | 15 | 6,620.72 ns | 1,969.489 ns | 107.954 ns | 1.6556 |      - |    6952 B |
+| ObtenerParMasLejano      | 15 | 1,277.32 ns |   456.342 ns |  25.014 ns | 0.0553 |      - |     232 B |
+| ObtenerParMasCercano     | 15 | 1,236.53 ns |    65.430 ns |   3.586 ns | 0.0553 |      - |     232 B |

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Documentos\\Datos 1\\Arbol-Genealogico\\Arbol.Tests\\Arbol.Tests.csproj": {}
+    "C:\\Users\\Dylan\\Documents\\ArbolGenealogico-Rendimiento\\Arbol.Tests\\Arbol.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Documentos\\Datos 1\\Arbol-Genealogico\\Arbol-Genealogico\\Arbol-Genealogico.csproj": {
+    "C:\\Users\\Dylan\\Documents\\ArbolGenealogico-Rendimiento\\Arbol-Genealogico\\Arbol-Genealogico.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Documentos\\Datos 1\\Arbol-Genealogico\\Arbol-Genealogico\\Arbol-Genealogico.csproj",
+        "projectUniqueName": "C:\\Users\\Dylan\\Documents\\ArbolGenealogico-Rendimiento\\Arbol-Genealogico\\Arbol-Genealogico.csproj",
         "projectName": "Arbol-Genealogico",
-        "projectPath": "C:\\Documentos\\Datos 1\\Arbol-Genealogico\\Arbol-Genealogico\\Arbol-Genealogico.csproj",
-        "packagesPath": "C:\\Users\\alann\\.nuget\\packages\\",
-        "outputPath": "C:\\Documentos\\Datos 1\\Arbol-Genealogico\\Arbol-Genealogico\\.godot\\mono\\temp\\obj\\",
+        "projectPath": "C:\\Users\\Dylan\\Documents\\ArbolGenealogico-Rendimiento\\Arbol-Genealogico\\Arbol-Genealogico.csproj",
+        "packagesPath": "C:\\Users\\Dylan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dylan\\Documents\\ArbolGenealogico-Rendimiento\\Arbol-Genealogico\\.godot\\mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\alann\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dylan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,25 +44,29 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BenchmarkDotNet": {
+              "target": "Package",
+              "version": "[0.15.8, )"
+            },
             "Godot.SourceGenerators": {
               "target": "Package",
-              "version": "[4.5.1, )",
+              "version": "[4.6.1, )",
               "autoReferenced": true
             },
             "GodotSharp": {
               "target": "Package",
-              "version": "[4.5.1, )",
+              "version": "[4.6.1, )",
               "autoReferenced": true
             },
             "GodotSharpEditor": {
               "target": "Package",
-              "version": "[4.5.1, )",
+              "version": "[4.6.1, )",
               "autoReferenced": true
             }
           },
@@ -82,24 +86,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Documentos\\Datos 1\\Arbol-Genealogico\\Arbol.Tests\\Arbol.Tests.csproj": {
+    "C:\\Users\\Dylan\\Documents\\ArbolGenealogico-Rendimiento\\Arbol.Tests\\Arbol.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Documentos\\Datos 1\\Arbol-Genealogico\\Arbol.Tests\\Arbol.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Dylan\\Documents\\ArbolGenealogico-Rendimiento\\Arbol.Tests\\Arbol.Tests.csproj",
         "projectName": "Arbol.Tests",
-        "projectPath": "C:\\Documentos\\Datos 1\\Arbol-Genealogico\\Arbol.Tests\\Arbol.Tests.csproj",
-        "packagesPath": "C:\\Users\\alann\\.nuget\\packages\\",
-        "outputPath": "C:\\Documentos\\Datos 1\\Arbol-Genealogico\\Arbol.Tests\\obj\\",
+        "projectPath": "C:\\Users\\Dylan\\Documents\\ArbolGenealogico-Rendimiento\\Arbol.Tests\\Arbol.Tests.csproj",
+        "packagesPath": "C:\\Users\\Dylan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dylan\\Documents\\ArbolGenealogico-Rendimiento\\Arbol.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\alann\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dylan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -114,8 +118,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Documentos\\Datos 1\\Arbol-Genealogico\\Arbol-Genealogico\\Arbol-Genealogico.csproj": {
-                "projectPath": "C:\\Documentos\\Datos 1\\Arbol-Genealogico\\Arbol-Genealogico\\Arbol-Genealogico.csproj"
+              "C:\\Users\\Dylan\\Documents\\ArbolGenealogico-Rendimiento\\Arbol-Genealogico\\Arbol-Genealogico.csproj": {
+                "projectPath": "C:\\Users\\Dylan\\Documents\\ArbolGenealogico-Rendimiento\\Arbol-Genealogico\\Arbol-Genealogico.csproj"
               }
             }
           }
@@ -130,7 +134,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -165,7 +169,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
